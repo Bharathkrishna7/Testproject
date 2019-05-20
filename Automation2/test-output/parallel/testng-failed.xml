@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parallel]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Testng.ParallelbrowserTesting">
+        <methods>
+          <include name="verifypage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testng.ParallelbrowserTesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Testng.ParallelbrowserTesting">
+        <methods>
+          <include name="verifypage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testng.ParallelbrowserTesting -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [parallel] -->

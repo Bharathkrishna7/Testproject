@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="DemoxmlFilescreation" verbose="1" >
+  <test name="demoxml" >
+    <classes>
+       <class name="Testng.Testngxml" />
+        <class name="Testng.Testngxml2" />
+    </classes>
+  </test>
+ </suite>
