@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.actitime.testcases.Verifygmaillogin">
+      <class name="com.Testng.Logintest">
         <methods>
-          <include name="entergmail"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.actitime.testcases.Verifygmaillogin -->
+      </class> <!-- com.Testng.Logintest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -22,7 +22,7 @@ public class XSSF2
 		login.loginactitime("admin", "manager");
 		 driver.findElement(By.linkText("Users")).click();
 		 driver.findElement(By.xpath("//input[@type='button']")).click();
-		File f1=new File("C://Automationworkspace2//Automation2//src//Exceldata//Exceltoapp.xlsx");
+		File f1=new File("C:/Users/RAMESH/git/Testproject/Automation2/src/Exceldata/Exceltoapp.xlsx");
 		FileInputStream fis=new FileInputStream(f1);
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
 		XSSFSheet s1=wb.getSheetAt(0);
@@ -52,7 +52,5 @@ public class XSSF2
 	     driver.findElement(By.xpath("//input[@maxlength='255']")).sendKeys(email); 
 	     }
 	   wb.close();
-	     
-	}
-
+  }
 }

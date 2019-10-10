@@ -1,19 +1,22 @@
 package Testng;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Loginpage 
 {
+	FirefoxDriver ff;
 	@Test
-	@Parameters("username,password")
-	public void Loginpage(String username,String password)
+	@Parameters({"url","username","pwd"})
+	public void Loginpage1(String url, String username, String pwd)
 	{
-		         FirefoxDriver ff=new FirefoxDriver();
-				 ff.get("http://ramesh-pc/login.do");
-				 System.out.println(username);
-				 System.out.println(password);
+		        ff=new FirefoxDriver();
+				ff.get(url);
+				ff.findElement(By.name("username")).sendKeys(username);
+				ff.findElement(By.name("pwd")).sendKeys(pwd);
 	}
 
 }
+

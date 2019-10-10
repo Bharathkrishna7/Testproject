@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Actitime login suite]">
+  <parameter name="pwd" value="manager"/>
+  <parameter name="url" value="http://ramesh-pc/login.do"/>
+  <parameter name="username" value="admin"/>
+  <test name="Actitime login test(failed)">
+    <parameter name="pwd" value="manager"/>
+    <parameter name="url" value="http://ramesh-pc/login.do"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="com.Testng.Logintest">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Testng.Logintest -->
+    </classes>
+  </test> <!-- Actitime login test(failed) -->
+</suite> <!-- Failed suite [Actitime login suite] -->

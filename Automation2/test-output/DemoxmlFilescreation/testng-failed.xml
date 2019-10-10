@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoxmlFilescreation]">
+  <parameter name="pwd" value="manager"/>
+  <parameter name="url" value="http://ramesh-pc/login.do"/>
+  <parameter name="username" value="admin"/>
+  <test name="demoxml(failed)">
+    <parameter name="pwd" value="manager"/>
+    <parameter name="url" value="http://ramesh-pc/login.do"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="Testng.Loginpage">
+        <methods>
+          <include name="Loginpage1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Testng.Loginpage -->
+    </classes>
+  </test> <!-- demoxml(failed) -->
+</suite> <!-- Failed suite [DemoxmlFilescreation] -->

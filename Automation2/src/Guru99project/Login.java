@@ -2,7 +2,6 @@ package Guru99project;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 public class Login 
 {
 	public static void main(String[]args)

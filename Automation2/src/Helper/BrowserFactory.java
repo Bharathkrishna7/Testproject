@@ -26,6 +26,7 @@ public class BrowserFactory
 		   driver=new InternetExplorerDriver();
 	   }
 	   driver.manage().window().maximize();
+	   driver.manage().deleteAllCookies();
 	   driver.get(url);
 	   return driver;
 	   

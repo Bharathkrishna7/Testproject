@@ -14,9 +14,9 @@ public class Login
 		ff.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		ff.findElement(By.name("username")).sendKeys("admin");
 		ff.findElement(By.name("pwd")).sendKeys("manager");
-		ff.findElement(By.xpath("//input[@type='submit']")).click();
+		ff.findElement(By.xpath("//*[@type='submit']")).click();
 		//ff.findElement(By.xpath("//img[@class='logoutImg']")).click();
-		ff.findElement(By.className("logoutImg")).click();
+		//ff.findElement(By.className("logoutImg")).click();
 	}
 	
 }

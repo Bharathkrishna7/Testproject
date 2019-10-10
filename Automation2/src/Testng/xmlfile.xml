@@ -2,9 +2,11 @@
   
 <suite name="DemoxmlFilescreation" verbose="1" >
   <test name="demoxml" >
+  <parameter name="url" value="http://ramesh-pc/login.do"></parameter>
+  <parameter name="username" value="admin"></parameter>
+  <parameter name="pwd" value="manager"></parameter>
     <classes>
-       <class name="Testng.Testngxml" />
-        <class name="Testng.Testngxml2" />
+        <class name="Testng.Loginpage" />
     </classes>
   </test>
  </suite>

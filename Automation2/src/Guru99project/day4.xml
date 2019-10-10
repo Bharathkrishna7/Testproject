@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="day4 login suite" verbose="1" >
+  <test name="day4 login test" >
+  <parameter name="url" value="http://www.demo.guru99.com/V4/"></parameter>
+  <parameter name="uname" value="mngr2154"></parameter>
+  <parameter name="pass" value="vupanyb"></parameter>
+  <parameter name="uname1" value="mngr2154"></parameter>
+  <parameter name="pass1" value="vupab"></parameter>
+  <parameter name="uname2" value="mngr24"></parameter>
+  <parameter name="pass2" value="payb"></parameter>
+
+    <classes>
+      <class name="Guru99project.day4"></class>
+    </classes>
+  </test>
+</suite>
+  
+

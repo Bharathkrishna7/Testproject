@@ -1,0 +1,16 @@
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Actitime login suite" verbose="1" >
+  <test name="Actitime login test" >
+  
+  
+  <parameter name="url" value="http://ramesh-pc/login.do"></parameter>
+  <parameter name="username" value="admin"></parameter>
+  <parameter name="pwd" value="manager"></parameter>
+  
+  
+    <classes>
+      <class name="com.Testng.Logintest"/>
+      <class name="Guru99project.day4"></class>
+    </classes>
+  </test>
+</suite>
